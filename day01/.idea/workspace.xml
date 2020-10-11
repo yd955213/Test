@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e42b3105-ee0d-47b4-a566-ad518324f834" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LoginParamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/loginAndPlusTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Test1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Test1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +20,9 @@
       <list>
         <option value="Interface" />
         <option value="Python Script" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -60,20 +57,24 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="JUnitTestDay1" />
       <recent name="" />
       <recent name="test" />
-      <recent name="JUnitTestDay1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="test" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
       <recent name="Login" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTest">
+  <component name="RunManager" selected="JUnit.LoginParamTest">
     <configuration name="Test01" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_181" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -81,10 +82,29 @@
       <module name="day01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginParamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginParamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginParamTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="day01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LoginParamTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,6 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginParamTest" />
+        <item itemvalue="JUnit.LoginParamTest.login" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.nullPassWordTest" />
         <item itemvalue="Application.Test01" />
@@ -128,7 +150,7 @@
       <updated>1602343465959</updated>
       <workItem from="1602343468036" duration="5439000" />
       <workItem from="1602350062991" duration="808000" />
-      <workItem from="1602375058451" duration="9246000" />
+      <workItem from="1602375058451" duration="13591000" />
     </task>
     <servers />
   </component>
@@ -152,14 +174,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602384540726" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1602385086104">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1602392626460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602385086104" />
-    <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602381311172">
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602392626460" />
+    <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1602393293227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602381311172" />
+    <state x="690" y="295" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602393293227" />
     <state x="690" y="301" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602380482600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -168,26 +190,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="409" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602346664622" />
+    <state x="739" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602393311143">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="378" width="441" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1602393311143" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602348595427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602348595427" />
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom" timestamp="1602386113845">
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1602394190652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602386113845" />
-    <state width="1877" height="174" key="GridCell.Tab.0.center" timestamp="1602386113845">
+    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602394190652" />
+    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1602394190652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602386113845" />
-    <state width="1877" height="174" key="GridCell.Tab.0.left" timestamp="1602386113845">
+    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602394190652" />
+    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1602394190652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602386113845" />
-    <state width="1877" height="174" key="GridCell.Tab.0.right" timestamp="1602386113845">
+    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602394190652" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1602394190652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602386113845" />
+    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602394190652" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602386081586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -204,13 +230,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602386081586" />
-    <state x="530" y="272" width="998" height="717" key="SettingsEditor" timestamp="1602383650928">
+    <state x="530" y="272" width="998" height="717" key="SettingsEditor" timestamp="1602393916447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="530" y="272" width="998" height="717" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602383650928" />
-    <state x="952" y="267" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602382729351">
+    <state x="530" y="272" width="998" height="717" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602393916447" />
+    <state x="952" y="267" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602392442539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="952" y="267" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602382729351" />
+    <state x="952" y="267" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602392442539" />
   </component>
 </project>
